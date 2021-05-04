@@ -1,0 +1,6 @@
+CREATE TABLE firstTable (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    first_col TEXT NOT NULL UNIQUE,
+    second_col TEXT NOT NULL UNIQUE,
+    third_col TEXT NOT NULL UNIQUE
+);
